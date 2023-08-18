@@ -169,67 +169,156 @@
     </g>
   </g>
 
+  <defs>
+    <!-- planets -->
+    <text id="sun"     class="symbol" x="0" y="0">A</text>
+    <text id="moon"    class="symbol" x="0" y="0">B</text>
+    <text id="mercury" class="symbol" x="0" y="0">C</text>
+    <text id="venus"   class="symbol" x="0" y="0">D</text>
+    <text id="mars"    class="symbol" x="0" y="0">E</text>
+    <text id="jupiter" class="symbol" x="0" y="0">F</text>
+    <text id="saturn"  class="symbol" x="0" y="0">G</text>
+    <text id="uranus"  class="symbol" x="0" y="0">H</text>
+    <text id="neptune" class="symbol" x="0" y="0">I</text>
+    <text id="pluto"   class="symbol" x="0" y="0">J</text>
+    <text id="earth"   class="symbol" x="0" y="0">W</text>
+    <text id="vulcan"  class="symbol" x="0" y="0">Z</text>
 
-  <circle cx="1000" cy="1000" r="250" fill="none" stroke="red" />
-  <circle cx="1000" cy="1000" r="350" fill="none" stroke="red" stroke-width="2" />
-  <circle cx="1000" cy="1000" r="400" fill="none" stroke="red" />
-  <circle cx="1000" cy="1000" r="450" fill="none" stroke="red" />
-  <circle cx="1000" cy="1000" r="500" fill="none" stroke="red" stroke-width="2" />
-  <circle cx="1000" cy="1000" r="550" fill="none" stroke="red" />
-  <circle cx="1000" cy="1000" r="600" fill="none" stroke="red" />
-  <circle cx="1000" cy="1000" r="650" fill="none" stroke="red" />
+    <!-- signs -->
+    <text id="aries"       class="symbol" x="0" y="0">a</text>
+    <text id="taurus"      class="symbol" x="0" y="0">b</text>
+    <text id="gemini"      class="symbol" x="0" y="0">c</text>
+    <text id="cancer"      class="symbol" x="0" y="0">d</text>
+    <text id="leo"         class="symbol" x="0" y="0">e</text>
+    <text id="virgo"       class="symbol" x="0" y="0">f</text>
+    <text id="libra"       class="symbol" x="0" y="0">g</text>
+    <text id="scorpio"     class="symbol" x="0" y="0">h</text>
+    <text id="sagittarius" class="symbol" x="0" y="0">i</text>
+    <text id="capricorn"   class="symbol" x="0" y="0">j</text>
+    <text id="aquarius"    class="symbol" x="0" y="0">k</text>
+    <text id="pisces"      class="symbol" x="0" y="0">l</text>
+  </defs>
+
+
+  <!-- circles -->
+  <circle cx="1000" cy="1000" r="250" stroke="red" />
+  <circle cx="1000" cy="1000" r="390" stroke="red" stroke-width="2" />
+  <circle cx="1000" cy="1000" r="460" stroke="red" />
+  <circle cx="1000" cy="1000" r="540" stroke="red" />
+  <circle cx="1000" cy="1000" r="620" stroke="red" stroke-width="2" />
+  <circle cx="1000" cy="1000" r="720" stroke="red" />
+  <circle cx="1000" cy="1000" r="840" stroke="red" />
+  <circle cx="1000" cy="1000" r="960" stroke="red" stroke-width="2" />
 
 
 
   <!-- rays -->
-  <!-- 
-  ids work like "oc12" = oc stands for o'clock and the number obviously 
-  for the direction of the line on the circle, like a clock!
-  -->
-  <line id="oc12" x1="1000" y1="750" x2="1000" y2="0" stroke="red" />
-  <line id="oc1"  x1="1000" y1="1000" x2="1500" y2="0" stroke="purple" />
-  <line id="oc2"  x1="1000" y1="1000" x2="2000" y2="500" stroke="purple" />
-  <line id="oc3"  x1="1250" y1="1000" x2="2000" y2="1000" stroke="red" />
-  <line id="oc4"  x1="1000" y1="1000" x2="2000" y2="1500" stroke="purple" />
-  <line id="oc5"  x1="1000" y1="1000" x2="1500" y2="2000" stroke="purple" />
-  <line id="oc6"  x1="1000" y1="1250" x2="1000" y2="2000" stroke="red" />
-  <line id="oc7"  x1="1000" y1="1000" x2="500" y2="2000" stroke="purple" />
-  <line id="oc7"  x1="1000" y1="1000" x2="0" y2="1500" stroke="purple" />
-  <line id="oc9"  x1="0" y1="1000" x2="750" y2="1000" stroke="red" />
-  <line id="oc10"  x1="1000" y1="1000" x2="0" y2="500" stroke="purple" />
-  <line id="oc11"  x1="1000" y1="1000" x2="500" y2="0" stroke="purple" />
+  <line id="twelve" x1="1000" y1="1000" x2="1000" y2="0"    stroke="red" />
+  <line id="three"  x1="1000" y1="1000" x2="2000" y2="1000" stroke="red" />
+  <line id="six"    x1="1000" y1="1000" x2="1000" y2="2000" stroke="red" />
+  <line id="nine"   x1="1000" y1="1000" x2="0"    y2="1000" stroke="red" />
+
+  <line id="one"    x1="1000" y1="1000" x2="1500" y2="0"    stroke="purple" />
+  <line id="two"    x1="1000" y1="1000" x2="2000" y2="500"  stroke="purple" />
+  <line id="four"   x1="1000" y1="1000" x2="2000" y2="1500" stroke="purple" />
+  <line id="five"   x1="1000" y1="1000" x2="1500" y2="2000" stroke="purple" />
+  <line id="seven"  x1="1000" y1="1000" x2="500"  y2="2000" stroke="purple" />
+  <line id="eight"  x1="1000" y1="1000" x2="0"    y2="1500" stroke="purple" />
+  <line id="ten"    x1="1000" y1="1000" x2="0"    y2="500"  stroke="purple" />
+  <line id="eleven" x1="1000" y1="1000" x2="500"  y2="0"    stroke="purple" />
+
+  <line id="twelve-one-a" x1="1000" y1="1000" x2="1150" y2="0" stroke="blue" />
+  <line id="twelve-one-b" x1="1000" y1="1000" x2="1350" y2="0" stroke="blue" />
+  
+  <line id="one-two-a" x1="1000" y1="1000" x2="1800" y2="0" stroke="blue" />
+  <line id="one-two-b" x1="1000" y1="1000" x2="2200" y2="0" stroke="blue" />
+  
+  <line id="two-three-a" x1="1000" y1="1000" x2="2000" y2="650" stroke="blue" />
+  <line id="two-three-b" x1="1000" y1="1000" x2="2000" y2="850" stroke="blue" />
+
+  <line id="three-four-a" x1="1000" y1="1000" x2="2000" y2="1150" stroke="blue" />
+  <line id="three-four-b" x1="1000" y1="1000" x2="2000" y2="1350" stroke="blue" />
+
+  <line id="four-five-a" x1="1000" y1="1000" x2="2000" y2="1800" stroke="blue" />
+  <line id="four-five-b" x1="1000" y1="1000" x2="1800" y2="2000" stroke="blue" />
+
+  <line id="five-six-a" x1="1000" y1="1000" x2="1350" y2="2000" stroke="blue" />
+  <line id="five-six-b" x1="1000" y1="1000" x2="1150" y2="2000" stroke="blue" />
+
+  <line id="six-seven-a" x1="1000" y1="1000" x2="850" y2="2000" stroke="blue" />
+  <line id="six-seven-b" x1="1000" y1="1000" x2="700" y2="2000" stroke="blue" />
+
+  <line id="seven-eight-a" x1="1000" y1="1000" x2="200" y2="2000" stroke="blue" />
+  <line id="seven-eight-b" x1="1000" y1="1000" x2="0" y2="1800" stroke="blue" />
+
+  <line id="eight-nine-a" x1="1000" y1="1000" x2="0" y2="1350" stroke="blue" />
+  <line id="eight-nine-b" x1="1000" y1="1000" x2="0" y2="1150" stroke="blue" />
+
+  <line id="nine-ten-a" x1="1000" y1="1000" x2="0" y2="850" stroke="blue" />
+  <line id="nine-ten-b" x1="1000" y1="1000" x2="0" y2="650" stroke="blue" />
+
+  <line id="ten-eleven-a" x1="1000" y1="1000" x2="0" y2="250" stroke="blue" />
+  <line id="ten-eleven-b" x1="1000" y1="1000" x2="200" y2="0" stroke="blue" />
+
+  <line id="eleven-twelve-a" x1="1000" y1="1000" x2="650" y2="0" stroke="blue" />
+  <line id="eleven-twelve-b" x1="1000" y1="1000" x2="850" y2="0" stroke="blue" />
+
+  <script>
+    console.log("hello");
+    const L = 1000;
+    const a = 10;
+    function getX2(x1,m){
+      return x1 + (L * Math.cos(a*m))
+    }
+    function getY2(y1,m){
+      return y1 + (L * Math.sin(a*m))
+    }
+    for(let i = 0; i < 36; i++) {
+      console.log("test", i);
+      const x2 = getX2(1000,i);
+      const y2 = getY2(1000,i);
+      console.log(x2);
+      console.log(y2);
+    }
+  </script>
 
 
-  <!-- planets -->
-  <text class="symbol sun"     x="100"  y="300">A</text>
-  <text class="symbol moon"    x="200"  y="300">B</text>
-  <text class="symbol mercury" x="300"  y="300">C</text>
-  <text class="symbol venus"   x="400"  y="300">D</text>
-  <text class="symbol mars"    x="500"  y="300">E</text>
-  <text class="symbol jupiter" x="600"  y="300">F</text>
-  <text class="symbol saturn"  x="700"  y="300">G</text>
-  <text class="symbol uranus"  x="800"  y="300">H</text>
-  <text class="symbol neptune" x="900"  y="300">I</text>
-  <text class="symbol pluto"   x="1000" y="300">J</text>
-  <text class="symbol earth"   x="1100" y="300">W</text>
-  <text class="symbol vulcan"  x="1200" y="300">Z</text>
 
-  <!-- signs -->
-  <text class="symbol aries"       x="100"  y="200">a</text>
-  <text class="symbol taurus"      x="200"  y="200">b</text>
-  <text class="symbol gemini"      x="300"  y="200">c</text>
-  <text class="symbol cancer"      x="400"  y="200">d</text>
-  <text class="symbol leo"         x="500"  y="200">e</text>
-  <text class="symbol virgo"       x="600"  y="200">f</text>
-  <text class="symbol libra"       x="700"  y="200">g</text>
-  <text class="symbol scorpio"     x="800"  y="200">h</text>
-  <text class="symbol sagittarius" x="900"  y="200">i</text>
-  <text class="symbol capricorn"   x="1000" y="200">j</text>
-  <text class="symbol aquarius"    x="1100" y="200">k</text>
-  <text class="symbol pisces"      x="1200" y="200">l</text>
 
+  <!-- text signs -->
+  <use xlink:href="#sun"     x="100"  y="100" />
+  <use xlink:href="#moon"    x="200"  y="100" />
+  <use xlink:href="#mercury" x="300"  y="100" />
+  <use xlink:href="#venus"   x="400"  y="100" />
+  <use xlink:href="#mars"    x="500"  y="100" />
+  <use xlink:href="#jupiter" x="600"  y="100" />
+  <use xlink:href="#saturn"  x="700"  y="100" />
+  <use xlink:href="#uranus"  x="800"  y="100" />
+  <use xlink:href="#neptune" x="900"  y="100" />
+  <use xlink:href="#pluto"   x="1000" y="100" />
+  <use xlink:href="#earth"   x="1100" y="100" />
+  <use xlink:href="#vulcan"  x="1200" y="100" />
+
+  <!-- text planets -->
+  <use xlink:href="#aries"       x="100"  y="200" />
+  <use xlink:href="#taurus"      x="200"  y="200" />
+  <use xlink:href="#gemini"      x="300"  y="200" />
+  <use xlink:href="#cancer"      x="400"  y="200" />
+  <use xlink:href="#leo"         x="500"  y="200" />
+  <use xlink:href="#virgo"       x="600"  y="200" />
+  <use xlink:href="#libra"       x="700"  y="200" />
+  <use xlink:href="#scorpio"     x="800"  y="200" />
+  <use xlink:href="#sagittarius" x="900"  y="200" />
+  <use xlink:href="#capricorn"   x="1000" y="200" />
+  <use xlink:href="#aquarius"    x="1100" y="200" />
+  <use xlink:href="#pisces"      x="1200" y="200" />
 
 </svg>
+
+
+
+
+
 
 
 

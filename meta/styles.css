@@ -56,7 +56,9 @@ svg {
   dominant-baseline: top;
 } */
 
-
+#ea-map circle {
+  fill: none;
+}
 
 /*
 all lines (incl. labels): 
