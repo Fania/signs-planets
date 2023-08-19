@@ -60,6 +60,10 @@ svg {
   fill: none;
 }
 
+#test-map #rays use {
+  transform-origin: center;
+}
+
 /*
 all lines (incl. labels): 
 #lines
