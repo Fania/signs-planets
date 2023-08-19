@@ -64,6 +64,10 @@ svg {
   transform-origin: center;
 }
 
+#ea-map #signs use {
+  transform-origin: center;
+}
+
 /*
 all lines (incl. labels): 
 #lines
