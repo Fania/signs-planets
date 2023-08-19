@@ -60,7 +60,7 @@ svg {
   fill: none;
 }
 
-#test-map #rays use {
+#ea-map #rays use {
   transform-origin: center;
 }
 
