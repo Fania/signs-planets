@@ -40,7 +40,7 @@
 
 
 
-<svg id="ea-map" viewBox="0 0 2000 2000">
+<svg id="ea-map" viewBox="0 0 2000 2000" height="800" width="800">
 
   <g id="coordinates">
     <g id="vertical">
@@ -200,11 +200,18 @@
 
     <path id="ray_short" stroke="#cccccc" stroke-width="2" d="M 1000 1390 v 570"/>
     <path id="ray_long" stroke="#cccccc" stroke-width="2" d="M 1000 1252 v 710"/>
+  
+    <path id="ring_1" d="M 1000 610 V 750 Q 930 750 875 784 L 805 662 Q 890 612 1000 610"/>  
+  
   </defs>
 
 
+
+
+
+
   <!-- circles -->
-  <circle cx="1000" cy="1000" r="250" stroke="#cccccc"/>
+  <circle cx="1000" cy="1000" r="250" stroke="#cccccc" stroke-width="3"/>
   <circle cx="1000" cy="1000" r="390" stroke="#cccccc" stroke-width="2"/>
   <circle cx="1000" cy="1000" r="460" stroke="#cccccc"/>
   <circle cx="1000" cy="1000" r="540" stroke="#cccccc"/>
@@ -256,6 +263,30 @@
   </g>
 
 
+  <!-- colours -->
+  <use xlink:href="#ring_1" fill="#ff00ff5c"/>
+  <use xlink:href="#ring_1" fill="#00ffff5c" transform="rotate(30 1000 1000)"/>
+  <use xlink:href="#ring_1" fill="#ffff005c" transform="rotate(60 1000 1000)"/>
+  <use xlink:href="#ring_1" fill="#ff00ff5c" transform="rotate(90 1000 1000)"/>
+  <use xlink:href="#ring_1" fill="#00ffff5c" transform="rotate(120 1000 1000)"/>
+  <use xlink:href="#ring_1" fill="#ffff005c" transform="rotate(150 1000 1000)"/>
+  <use xlink:href="#ring_1" fill="#ff00ff5c" transform="rotate(180 1000 1000)"/>
+  <use xlink:href="#ring_1" fill="#00ffff5c" transform="rotate(210 1000 1000)"/>
+  <use xlink:href="#ring_1" fill="#ffff005c" transform="rotate(240 1000 1000)"/>
+  <use xlink:href="#ring_1" fill="#ff00ff5c" transform="rotate(270 1000 1000)"/>
+  <use xlink:href="#ring_1" fill="#00ffff5c" transform="rotate(300 1000 1000)"/>
+  <use xlink:href="#ring_1" fill="#ffff005c" transform="rotate(330 1000 1000)"/>
+
+
+
+
+
+
+
+
+
+
+
   <!-- text signs -->
   <g id="signs">
     <use xlink:href="#aries"       x="970" y="710" transform="rotate(15)"/>
@@ -276,8 +307,8 @@
   <!-- text planets -->
   <g id="planets">
     <use xlink:href="#sun"     x="100"  y="100" />
-    <use xlink:href="#moon"    x="200"  y="100" />
-    <use xlink:href="#mercury" x="300"  y="100" />
+    <use xlink:href="#moon"    x="200"  y="100" transform="rotate(45 230 70)"/>
+    <use xlink:href="#mercury" x="300"  y="100" transform="rotate(70 330 70)"/>
     <use xlink:href="#venus"   x="400"  y="100" />
     <use xlink:href="#mars"    x="500"  y="100" />
     <use xlink:href="#jupiter" x="600"  y="100" />
@@ -288,6 +319,9 @@
     <use xlink:href="#earth"   x="1100" y="100" />
     <use xlink:href="#vulcan"  x="1200" y="100" />
   </g>
+
+
+
 
 
 
