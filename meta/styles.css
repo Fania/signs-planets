@@ -48,7 +48,7 @@ svg {
 }
 
 #ea-map text.symbol {
-  fill: black;
+  fill: white;
   font-size: 100px;
   font-family: "Astro";
   /* text-anchor: middle; */
@@ -70,6 +70,28 @@ svg {
 #ea-map #signs use {
   transform-origin: center;
 }
+#ea-map #signs text.symbol {
+  fill: white;
+}
+
+
+/* #ea-map [xlink\:href='#aries'] { */
+#ea-map .cardinal {
+  fill: rgb(204, 51, 51);
+  /* fill: rgb(153, 0, 0); */
+}
+#ea-map .fixed {
+  fill: rgb(85, 85, 187);
+  /* fill: rgb(34, 34, 136); */
+}
+#ea-map .mutable {
+  fill: rgb(34, 153, 34);
+  /* fill: rgb(0, 102, 0); */
+}
+
+
+
+
 
 /*
 all lines (incl. labels): 
