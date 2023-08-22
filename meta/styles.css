@@ -48,7 +48,7 @@ svg {
 }
 
 #ea-map text.symbol {
-  fill: white;
+  /* fill: white; */
   font-size: 100px;
   font-family: "Astro";
   /* text-anchor: middle; */
@@ -70,22 +70,36 @@ svg {
 #ea-map #signs use {
   transform-origin: center;
 }
-#ea-map #signs text.symbol {
+#ea-map #signs text.symbol,
+#ea-map #signs use {
   fill: white;
+}
+#ea-map #signs-5 use, 
+#ea-map #signs-5 text.symbol {
+  font-size: smaller;
+}
+#ea-map #signs-5 text.symbol,
+#ea-map #planets text.symbol,
+#ea-map #signs-5 use,
+#ea-map #planets use {
+  fill: black;
 }
 
 
 /* #ea-map [xlink\:href='#aries'] { */
 #ea-map .cardinal {
-  fill: rgb(204, 51, 51);
+  fill: rgba(204, 51, 51, 0.5);
+  /* fill: rgb(204, 51, 51); */
   /* fill: rgb(153, 0, 0); */
 }
 #ea-map .fixed {
-  fill: rgb(85, 85, 187);
+  fill: rgba(85, 85, 187, 0.5);
+  /* fill: rgb(85, 85, 187); */
   /* fill: rgb(34, 34, 136); */
 }
 #ea-map .mutable {
-  fill: rgb(34, 153, 34);
+  fill: rgba(34, 153, 34, 0.5);
+  /* fill: rgb(34, 153, 34); */
   /* fill: rgb(0, 102, 0); */
 }
 
