@@ -27,3 +27,17 @@ mutable = green
 --cardinalDark: rgb(153, 0, 0);
 --fixedDark: rgb(34, 34, 136);
 --mutableDark: rgb(0, 102, 0);
+
+
+sun       A   ☉
+moon      B   ☾
+mercury   C   ☿
+venus     D   ♀
+mars      E   ♂
+jupiter   F   ♃
+saturn    G   ♄
+uranus    H   ♅
+neptune   I   ⛢
+pluto     J   
+earth     W   
+vulcan    Z
