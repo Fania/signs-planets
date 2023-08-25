@@ -51,7 +51,8 @@ svg {
   /* fill: white; */
   font-size: 100px;
   font-family: "Astro";
-  /* text-anchor: middle; */
+  transform-origin: 50% 50%;
+  text-anchor: middle;
   /* dominant-baseline: middle; */
 }
 /* #ea-map text.symbol.libra,
@@ -64,15 +65,19 @@ svg {
 }
 
 #ea-map #rays use {
-  transform-origin: center;
+  /* transform-origin: center; */
+  transform-origin: 50% 50%;
 }
 
 #ea-map #signs use {
-  transform-origin: center;
+  /* transform-origin: center; */
+  transform-origin: 50% 50%;
+  text-anchor: middle;
 }
 #ea-map #signs text.symbol,
 #ea-map #signs use {
-  fill: white;
+  /* fill: white; */
+  fill: black;
 }
 #ea-map #signs-5 use, 
 #ea-map #signs-5 text.symbol {
