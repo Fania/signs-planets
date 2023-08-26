@@ -69,7 +69,7 @@ svg {
   transform-origin: 50% 50%;
 }
 
-#ea-map #signs use {
+#ea-map #signs-1 use {
   /* transform-origin: center; */
   transform-origin: 50% 50%;
   text-anchor: middle;
