@@ -65,14 +65,16 @@ svg {
 }
 
 #ea-map #rays use {
-  /* transform-origin: center; */
   transform-origin: 50% 50%;
 }
 
-#ea-map #signs-1 use {
+
+#ea-map [id^='signs'] use,
+#ea-map [id^='planets'] use {
   /* transform-origin: center; */
-  transform-origin: 50% 50%;
-  text-anchor: middle;
+  /* transform-origin: 50% 50%; */
+  text-anchor: middle; /* horizontal */
+  dominant-baseline: central; /* vertical */
 }
 #ea-map #signs text.symbol,
 #ea-map #signs use {
