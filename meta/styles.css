@@ -90,9 +90,41 @@ h1 {
 }
 
 
-#ea-map #signs-1 use[xlink\:href='#aries'] {
+
+#ea-map #signs-1 .aries {
   transform-origin: 1080px 695px;
   transform: rotate(20deg) translate(1080px, 695px);
 }
+#ea-map #signs-1 .taurus {
+  transform-origin: 1225px 775px;
+  transform: rotate(50deg) translate(1225px, 775px);
+}
+#ea-map #signs-1 .gemini {
+  transform-origin: 1310px 915px;
+  transform: rotate(75deg) translate(1310px, 915px);
+}
+#ea-map #signs-1 .cancer {
+  transform-origin: 1310px 1080px;
+  transform: rotate(290deg) translate(1310px, 1080px);
+}
+#ea-map #signs-1 .leo {
+  transform-origin: 1225px 1225px;
+  transform: rotate(310deg) translate(1225px, 1225px);
+}
+#ea-map #signs-1 .virgo {
+  transform-origin: 1080px 1300px;
+  transform: rotate(345deg) translate(1080px, 1300px);
+}
+#ea-map #signs-1 .libra {
+  transform-origin: 920px 1290px;
+  transform: rotate(10deg) translate(920px, 1290px);
+}
+#ea-map #signs-1 .scorpio {
+  transform-origin: 775px 1225px;
+  transform: rotate(40deg) translate(775px, 1225px);
+}
+
+
+
 
 
