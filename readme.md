@@ -41,3 +41,16 @@ neptune   I   ⛢
 pluto     J   
 earth     W   
 vulcan    Z
+
+
+
+
+
+signs 1
+each block is 30deg
+
+planets 2
+each block is 10deg
+
+signs 5
+each block is 10deg
