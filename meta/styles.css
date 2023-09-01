@@ -128,20 +128,13 @@ h1 {
 
 
 
-/* _::-webkit-full-page-media, _:future, :root body {
-
-  background-color: cyan; 
-
-} */
-
-@media not all and (min-resolution:.001dpcm) { @media {
+/* safari hacks */
+@supports (-webkit-hyphens:none) { 
   body { 
-    background-color: yellow; 
+    background-color: cyan;
   }
-
   #ea-map #signs-1 .aries {
     transform-origin: 1075px 725px;
     transform: rotate(20deg) translate(1075px,725px);
   }
-
-}}
+}
