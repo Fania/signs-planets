@@ -98,70 +98,62 @@ h1 {
 #ea-map #signs-1 .gemini.deg90 {
   transform-origin: 1295px 915px; transform: rotate(75deg) translate(1295px, 915px); }
 #ea-map #signs-1 .cancer.deg120 {
-  transform-origin: 1315px 1080px; transform: rotate(290deg) translate(1315px, 1080px); }
+  transform-origin: 1315px 1080px; transform: rotate(-75deg) translate(1315px, 1080px); }
 #ea-map #signs-1 .leo.deg150 {
-  transform-origin: 1225px 1230px; transform: rotate(310deg) translate(1225px, 1230px); }
+  transform-origin: 1225px 1230px; transform: rotate(-50deg) translate(1225px, 1230px); }
 #ea-map #signs-1 .virgo.deg180 {
-  transform-origin: 1085px 1315px; transform: rotate(345deg) translate(1085px, 1315px); }
+  transform-origin: 1085px 1315px; transform: rotate(-15deg) translate(1085px, 1315px); }
 #ea-map #signs-1 .libra.deg210 {
   transform-origin: 925px 1300px; transform: rotate(10deg) translate(925px, 1300px); }
 #ea-map #signs-1 .scorpio.deg240 {
   transform-origin: 770px 1230px; transform: rotate(40deg) translate(770px, 1230px); }
 #ea-map #signs-1 .sagittarius.deg270 {
-  transform-origin: 680px 1080px; transform: rotate(70deg) translate(680px, 1080px); }
+  transform-origin: 680px 1080px; transform: rotate(75deg) translate(680px, 1080px); }
 #ea-map #signs-1 .capricorn.deg300 {
-  transform-origin: 700px 915px; transform: rotate(290deg) translate(700px, 915px); }
+  transform-origin: 700px 915px; transform: rotate(-75deg) translate(700px, 915px); }
 #ea-map #signs-1 .aquarius.deg330 {
-  transform-origin: 775px 775px; transform: rotate(315deg) translate(775px, 775px); }
+  transform-origin: 775px 775px; transform: rotate(-50deg) translate(775px, 775px); }
 #ea-map #signs-1 .pisces.deg360 {
-  transform-origin: 920px 700px; transform: rotate(345deg) translate(920px, 700px); }
+  transform-origin: 920px 700px; transform: rotate(-20deg) translate(920px, 700px); }
 
 
 /* SIGNS 5 */
 #ea-map #signs-5 .aries.deg10 {
   transform-origin: 1060px 330px; transform: rotate(5deg) scale(0.75) translate(1060px, 330px); }
 #ea-map #signs-5 .leo.deg20 {
-  transform-origin: 1175px 350px; transform: rotate(11deg) scale(0.75) translate(1175px, 350px); }
+  transform-origin: 1175px 350px; transform: rotate(15deg) scale(0.75) translate(1175px, 350px); }
 #ea-map #signs-5 .sagittarius.deg30 {
-  transform-origin: 1285px 395px; transform: rotate(21deg) scale(0.75) translate(1285px, 395px); }
+  transform-origin: 1285px 395px; transform: rotate(25deg) scale(0.75) translate(1285px, 395px); }
 #ea-map #signs-5 .taurus.deg40 {
-  transform-origin: 1390px 450px; transform: rotate(31deg) scale(0.75) translate(1390px, 450px); }
+  transform-origin: 1390px 450px; transform: rotate(35deg) scale(0.75) translate(1390px, 450px); }
 #ea-map #signs-5 .virgo.deg50 {
-  transform-origin: 1475px 525px; transform: rotate(41deg) scale(0.75) translate(1475px, 525px); }
+  transform-origin: 1475px 525px; transform: rotate(45deg) scale(0.75) translate(1475px, 525px); }
 #ea-map #signs-5 .capricorn.deg60 {
-  transform-origin: 1550px 610px; transform: rotate(51deg) scale(0.75) translate(1550px, 610px); }
+  transform-origin: 1550px 610px; transform: rotate(55deg) scale(0.75) translate(1550px, 610px); }
 #ea-map #signs-5 .gemini.deg70 {
-  transform-origin: 1605px 715px; transform: rotate(61deg) scale(0.75) translate(1605px, 715px); }
+  transform-origin: 1605px 715px; transform: rotate(65deg) scale(0.75) translate(1605px, 715px); }
 #ea-map #signs-5 .libra.deg80 {
-  transform-origin: 1660px 825px; transform: rotate(71deg) scale(0.75) translate(1660px, 825px); }
+  transform-origin: 1660px 825px; transform: rotate(75deg) scale(0.75) translate(1660px, 825px); }
 #ea-map #signs-5 .aquarius.deg90 {
-  transform-origin: 1680px 945px; transform: rotate(81deg) scale(0.75) translate(1680px, 945px); }
-/* HERE */
-
+  transform-origin: 1680px 945px; transform: rotate(85deg) scale(0.75) translate(1680px, 945px); }
 #ea-map #signs-5 .cancer.deg100 {
-  /* transform-origin: 1685px 1060px; transform: rotate(-91deg) scale(0.75) translate(1685px, 1060px);  */
-  transform-origin: 1685px 1060px; transform: rotate(271deg) scale(0.75) translate(1685px, 1060px); 
-  }
+  transform-origin: 1685px 1060px; transform: rotate(-85deg) scale(0.75) translate(1685px, 1060px); }
 #ea-map #signs-5 .scorpio.deg110 {
-  transform-origin: 1665px 1175px; transform: rotate(281deg) scale(0.75) translate(1665px, 1175px); 
-  /* transform-origin: 1665px 1175px; transform: rotate(-101deg) scale(0.75) translate(1665px, 1175px);  */
-  }
+  transform-origin: 1665px 1175px; transform: rotate(-75deg) scale(0.75) translate(1665px, 1175px); }
 #ea-map #signs-5 .pisces.deg120 {
-  transform-origin: 1620px 1290px; transform: rotate(291deg) scale(0.75) translate(1620px, 1290px); }
+  transform-origin: 1620px 1290px; transform: rotate(-65deg) scale(0.75) translate(1620px, 1290px); }
 #ea-map #signs-5 .leo.deg130 {
-  transform-origin: 1560px 1395px; transform: rotate(301deg) scale(0.75) translate(1560px, 1395px); }
+  transform-origin: 1560px 1395px; transform: rotate(-55deg) scale(0.75) translate(1560px, 1395px); }
 #ea-map #signs-5 .sagittarius.deg140 {
-  transform-origin: 1490px 1485px; transform: rotate(311deg) scale(0.75) translate(1490px, 1485px); }
+  transform-origin: 1490px 1485px; transform: rotate(-45deg) scale(0.75) translate(1490px, 1485px); }
 #ea-map #signs-5 .aries.deg150 {
-  transform-origin: 1395px 1560px; transform: rotate(321deg) scale(0.75) translate(1395px, 1560px); }
+  transform-origin: 1395px 1560px; transform: rotate(-35deg) scale(0.75) translate(1395px, 1560px); }
 #ea-map #signs-5 .virgo.deg160 {
-  transform-origin: 1290px 1620px; transform: rotate(331deg) scale(0.75) translate(1290px, 1620px); }
+  transform-origin: 1290px 1620px; transform: rotate(-25deg) scale(0.75) translate(1290px, 1620px); }
 #ea-map #signs-5 .capricorn.deg170 {
-  transform-origin: 1180px 1665px; transform: rotate(341deg) scale(0.75) translate(1180px, 1665px); }
+  transform-origin: 1180px 1665px; transform: rotate(-15deg) scale(0.75) translate(1180px, 1665px); }
 #ea-map #signs-5 .taurus.deg180 {
-  transform-origin: 1060px 1685px; transform: rotate(351deg) scale(0.75) translate(1060px, 1685px); }
-/* HERE */
-
+  transform-origin: 1060px 1685px; transform: rotate(-5deg) scale(0.75) translate(1060px, 1685px); }
 #ea-map #signs-5 .libra.deg190 {
   transform-origin: 945px 1675px; transform: rotate(5deg) scale(0.75) translate(945px, 1675px); }
 #ea-map #signs-5 .aquarius.deg200 {
@@ -170,14 +162,35 @@ h1 {
   transform-origin: 710px 1620px; transform: rotate(25deg) scale(0.75) translate(710px, 1620px); }
 #ea-map #signs-5 .scorpio.deg220 {
   transform-origin: 605px 1560px; transform: rotate(35deg) scale(0.75) translate(605px, 1560px); }
-
-
-
+#ea-map #signs-5 .pisces.deg230 {
+  transform-origin: 510px 1490px; transform: rotate(45deg) scale(0.75) translate(510px, 1490px); }
+#ea-map #signs-5 .cancer.deg240 {
+  transform-origin: 440px 1395px; transform: rotate(55deg) scale(0.75) translate(440px, 1395px); }
+#ea-map #signs-5 .sagittarius.deg250 {
+  transform-origin: 380px 1295px; transform: rotate(65deg) scale(0.75) translate(380px, 1295px); }
+#ea-map #signs-5 .aries.deg260 {
+  transform-origin: 335px 1175px; transform: rotate(75deg) scale(0.75) translate(335px, 1175px); }
+#ea-map #signs-5 .leo.deg270 {
+  transform-origin: 320px 1060px; transform: rotate(85deg) scale(0.75) translate(320px, 1060px); }
+#ea-map #signs-5 .capricorn.deg280 {
+  transform-origin: 330px 945px; transform: rotate(-85deg) scale(0.75) translate(330px, 945px); }
+#ea-map #signs-5 .taurus.deg290 {
+  transform-origin: 350px 825px; transform: rotate(-75deg) scale(0.75) translate(350px, 825px); }
+#ea-map #signs-5 .virgo.deg300 {
+  transform-origin: 395px 715px; transform: rotate(-65deg) scale(0.75) translate(395px, 715px); }
+#ea-map #signs-5 .aquarius.deg310 {
+  transform-origin: 450px 610px; transform: rotate(-55deg) scale(0.75) translate(450px, 610px); }
+#ea-map #signs-5 .gemini.deg320 {
+  transform-origin: 525px 525px; transform: rotate(-45deg) scale(0.75) translate(525px, 525px); }
+#ea-map #signs-5 .libra.deg330 {
+  transform-origin: 610px 445px; transform: rotate(-35deg) scale(0.75) translate(610px, 445px); }
+#ea-map #signs-5 .pisces.deg340 {
+  transform-origin: 715px 395px; transform: rotate(-25deg) scale(0.75) translate(715px, 395px); }
+#ea-map #signs-5 .cancer.deg350 {
+  transform-origin: 825px 350px; transform: rotate(-15deg) scale(0.75) translate(825px, 350px); }
 #ea-map #signs-5 .scorpio.deg360 {
   transform-origin: 945px 330px; transform: rotate(-5deg) scale(0.75) translate(945px, 330px); }
 
-
-/* HERE */
 
 
 
@@ -185,30 +198,106 @@ h1 {
 /* SAFARI HACK */
 @supports (-webkit-hyphens:none) { 
   /* SIGNS 1 */
-  #ea-map #signs-1 .aries {
+  #ea-map #signs-1 .aries.deg30 {
     transform-origin: 1075px 725px; transform: rotate(20deg) translate(1075px,725px); }
-  #ea-map #signs-1 .taurus {
+  #ea-map #signs-1 .taurus.deg60 {
     transform-origin: 1200px 795px; transform: rotate(50deg) translate(1200px, 795px); }
-  #ea-map #signs-1 .gemini {
+  #ea-map #signs-1 .gemini.deg90 {
     transform-origin: 1275px 920px; transform: rotate(75deg) translate(1275px, 920px); }
-  #ea-map #signs-1 .cancer {
-    transform-origin: 1335px 1090px; transform: rotate(290deg) translate(1335px, 1090px); }
-  #ea-map #signs-1 .leo {
-    transform-origin: 1245px 1245px; transform: rotate(310deg) translate(1245px, 1245px); }
-  #ea-map #signs-1 .virgo {
-    transform-origin: 1090px 1335px; transform: rotate(345deg) translate(1090px, 1335px); }
-  #ea-map #signs-1 .libra {
+  #ea-map #signs-1 .cancer.deg120 {
+    transform-origin: 1335px 1090px; transform: rotate(-75deg) translate(1335px, 1090px); }
+  #ea-map #signs-1 .leo.deg150 {
+    transform-origin: 1245px 1245px; transform: rotate(-50deg) translate(1245px, 1245px); }
+  #ea-map #signs-1 .virgo.deg180 {
+    transform-origin: 1090px 1335px; transform: rotate(-15deg) translate(1090px, 1335px); }
+  #ea-map #signs-1 .libra.deg210 {
     transform-origin: 920px 1320px; transform: rotate(10deg) translate(920px, 1320px); }
-  #ea-map #signs-1 .scorpio {
+  #ea-map #signs-1 .scorpio.deg240 {
     transform-origin: 755px 1245px; transform: rotate(40deg) translate(755px, 1245px); }
-  #ea-map #signs-1 .sagittarius {
+  #ea-map #signs-1 .sagittarius.deg270 {
     transform-origin: 660px 1090px; transform: rotate(70deg) translate(660px, 1090px); }
-  #ea-map #signs-1 .capricorn {
-    transform-origin: 725px 920px; transform: rotate(290deg) translate(725px, 920px); }
-  #ea-map #signs-1 .aquarius {
-    transform-origin: 790px 790px; transform: rotate(315deg) translate(790px, 790px); }
-  #ea-map #signs-1 .pisces {
-    transform-origin: 920px 720px; transform: rotate(345deg) translate(920px, 720px); }
+  #ea-map #signs-1 .capricorn.deg300 {
+    transform-origin: 725px 920px; transform: rotate(-75deg) translate(725px, 920px); }
+  #ea-map #signs-1 .aquarius.deg330 {
+    transform-origin: 790px 790px; transform: rotate(-50deg) translate(790px, 790px); }
+  #ea-map #signs-1 .pisces.deg360 {
+    transform-origin: 920px 720px; transform: rotate(-20deg) translate(920px, 720px); }
+
+  /* SIGNS 5 */
+
+  /* HERE */
+  #ea-map #signs-5 .aries.deg10 {
+    transform-origin: 1060px 330px; transform: rotate(5deg) scale(0.75) translate(1060px, 330px); }
+  #ea-map #signs-5 .leo.deg20 {
+    transform-origin: 1175px 350px; transform: rotate(15deg) scale(0.75) translate(1175px, 350px); }
+  #ea-map #signs-5 .sagittarius.deg30 {
+    transform-origin: 1285px 395px; transform: rotate(25deg) scale(0.75) translate(1285px, 395px); }
+  #ea-map #signs-5 .taurus.deg40 {
+    transform-origin: 1390px 450px; transform: rotate(35deg) scale(0.75) translate(1390px, 450px); }
+  #ea-map #signs-5 .virgo.deg50 {
+    transform-origin: 1475px 525px; transform: rotate(45deg) scale(0.75) translate(1475px, 525px); }
+  #ea-map #signs-5 .capricorn.deg60 {
+    transform-origin: 1550px 610px; transform: rotate(55deg) scale(0.75) translate(1550px, 610px); }
+  #ea-map #signs-5 .gemini.deg70 {
+    transform-origin: 1605px 715px; transform: rotate(65deg) scale(0.75) translate(1605px, 715px); }
+  #ea-map #signs-5 .libra.deg80 {
+    transform-origin: 1660px 825px; transform: rotate(75deg) scale(0.75) translate(1660px, 825px); }
+  #ea-map #signs-5 .aquarius.deg90 {
+    transform-origin: 1680px 945px; transform: rotate(85deg) scale(0.75) translate(1680px, 945px); }
+  #ea-map #signs-5 .cancer.deg100 {
+    transform-origin: 1685px 1060px; transform: rotate(-85deg) scale(0.75) translate(1685px, 1060px); }
+  #ea-map #signs-5 .scorpio.deg110 {
+    transform-origin: 1665px 1175px; transform: rotate(-75deg) scale(0.75) translate(1665px, 1175px); }
+  #ea-map #signs-5 .pisces.deg120 {
+    transform-origin: 1620px 1290px; transform: rotate(-65deg) scale(0.75) translate(1620px, 1290px); }
+  #ea-map #signs-5 .leo.deg130 {
+    transform-origin: 1560px 1395px; transform: rotate(-55deg) scale(0.75) translate(1560px, 1395px); }
+  #ea-map #signs-5 .sagittarius.deg140 {
+    transform-origin: 1490px 1485px; transform: rotate(-45deg) scale(0.75) translate(1490px, 1485px); }
+  #ea-map #signs-5 .aries.deg150 {
+    transform-origin: 1395px 1560px; transform: rotate(-35deg) scale(0.75) translate(1395px, 1560px); }
+  #ea-map #signs-5 .virgo.deg160 {
+    transform-origin: 1290px 1620px; transform: rotate(-25deg) scale(0.75) translate(1290px, 1620px); }
+  #ea-map #signs-5 .capricorn.deg170 {
+    transform-origin: 1180px 1665px; transform: rotate(-15deg) scale(0.75) translate(1180px, 1665px); }
+  #ea-map #signs-5 .taurus.deg180 {
+    transform-origin: 1060px 1685px; transform: rotate(-5deg) scale(0.75) translate(1060px, 1685px); }
+  #ea-map #signs-5 .libra.deg190 {
+    transform-origin: 945px 1675px; transform: rotate(5deg) scale(0.75) translate(945px, 1675px); }
+  #ea-map #signs-5 .aquarius.deg200 {
+    transform-origin: 825px 1660px; transform: rotate(15deg) scale(0.75) translate(825px, 1660px); }
+  #ea-map #signs-5 .gemini.deg210 {
+    transform-origin: 710px 1620px; transform: rotate(25deg) scale(0.75) translate(710px, 1620px); }
+  #ea-map #signs-5 .scorpio.deg220 {
+    transform-origin: 605px 1560px; transform: rotate(35deg) scale(0.75) translate(605px, 1560px); }
+  #ea-map #signs-5 .pisces.deg230 {
+    transform-origin: 510px 1490px; transform: rotate(45deg) scale(0.75) translate(510px, 1490px); }
+  #ea-map #signs-5 .cancer.deg240 {
+    transform-origin: 440px 1395px; transform: rotate(55deg) scale(0.75) translate(440px, 1395px); }
+  #ea-map #signs-5 .sagittarius.deg250 {
+    transform-origin: 380px 1295px; transform: rotate(65deg) scale(0.75) translate(380px, 1295px); }
+  #ea-map #signs-5 .aries.deg260 {
+    transform-origin: 335px 1175px; transform: rotate(75deg) scale(0.75) translate(335px, 1175px); }
+  #ea-map #signs-5 .leo.deg270 {
+    transform-origin: 320px 1060px; transform: rotate(85deg) scale(0.75) translate(320px, 1060px); }
+  #ea-map #signs-5 .capricorn.deg280 {
+    transform-origin: 330px 945px; transform: rotate(-85deg) scale(0.75) translate(330px, 945px); }
+  #ea-map #signs-5 .taurus.deg290 {
+    transform-origin: 350px 825px; transform: rotate(-75deg) scale(0.75) translate(350px, 825px); }
+  #ea-map #signs-5 .virgo.deg300 {
+    transform-origin: 395px 715px; transform: rotate(-65deg) scale(0.75) translate(395px, 715px); }
+  #ea-map #signs-5 .aquarius.deg310 {
+    transform-origin: 450px 610px; transform: rotate(-55deg) scale(0.75) translate(450px, 610px); }
+  #ea-map #signs-5 .gemini.deg320 {
+    transform-origin: 525px 525px; transform: rotate(-45deg) scale(0.75) translate(525px, 525px); }
+  #ea-map #signs-5 .libra.deg330 {
+    transform-origin: 610px 445px; transform: rotate(-35deg) scale(0.75) translate(610px, 445px); }
+  #ea-map #signs-5 .pisces.deg340 {
+    transform-origin: 715px 395px; transform: rotate(-25deg) scale(0.75) translate(715px, 395px); }
+  #ea-map #signs-5 .cancer.deg350 {
+    transform-origin: 825px 350px; transform: rotate(-15deg) scale(0.75) translate(825px, 350px); }
+  #ea-map #signs-5 .scorpio.deg360 {
+    transform-origin: 945px 330px; transform: rotate(-5deg) scale(0.75) translate(945px, 330px); }
 
 
 }
