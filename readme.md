@@ -46,11 +46,6 @@ vulcan    Z
 
 
 
-signs 1
-each block is 30deg
+## todo
 
-planets 2
-each block is 10deg
-
-signs 5
-each block is 10deg
+- [ ] move long lines inward a bit as they poke out a tiny bit
