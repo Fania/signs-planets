@@ -48,6 +48,7 @@ h1 {
 }
 
 
+#ea-map [id^='ring'] use,
 #ea-map [id^='signs'] use,
 #ea-map [id^='planets'] use {
   /* transform-origin: center; */
@@ -91,29 +92,29 @@ h1 {
 
 
 /* SIGNS 1 */
-#ea-map #signs-1 .aries.deg30 {
+#ea-map #ring-1 .aries.deg30 {
   transform-origin: 1080px 700px; transform: rotate(20deg) translate(1080px, 700px); }
-#ea-map #signs-1 .taurus.deg60 {
+#ea-map #ring-1 .taurus.deg60 {
   transform-origin: 1215px 780px; transform: rotate(50deg) translate(1215px, 780px); }
-#ea-map #signs-1 .gemini.deg90 {
+#ea-map #ring-1 .gemini.deg90 {
   transform-origin: 1295px 915px; transform: rotate(75deg) translate(1295px, 915px); }
-#ea-map #signs-1 .cancer.deg120 {
+#ea-map #ring-1 .cancer.deg120 {
   transform-origin: 1315px 1080px; transform: rotate(-75deg) translate(1315px, 1080px); }
-#ea-map #signs-1 .leo.deg150 {
+#ea-map #ring-1 .leo.deg150 {
   transform-origin: 1225px 1230px; transform: rotate(-50deg) translate(1225px, 1230px); }
-#ea-map #signs-1 .virgo.deg180 {
+#ea-map #ring-1 .virgo.deg180 {
   transform-origin: 1085px 1315px; transform: rotate(-15deg) translate(1085px, 1315px); }
-#ea-map #signs-1 .libra.deg210 {
+#ea-map #ring-1 .libra.deg210 {
   transform-origin: 925px 1300px; transform: rotate(10deg) translate(925px, 1300px); }
-#ea-map #signs-1 .scorpio.deg240 {
+#ea-map #ring-1 .scorpio.deg240 {
   transform-origin: 770px 1230px; transform: rotate(40deg) translate(770px, 1230px); }
-#ea-map #signs-1 .sagittarius.deg270 {
+#ea-map #ring-1 .sagittarius.deg270 {
   transform-origin: 680px 1080px; transform: rotate(75deg) translate(680px, 1080px); }
-#ea-map #signs-1 .capricorn.deg300 {
+#ea-map #ring-1 .capricorn.deg300 {
   transform-origin: 700px 915px; transform: rotate(-75deg) translate(700px, 915px); }
-#ea-map #signs-1 .aquarius.deg330 {
+#ea-map #ring-1 .aquarius.deg330 {
   transform-origin: 775px 775px; transform: rotate(-50deg) translate(775px, 775px); }
-#ea-map #signs-1 .pisces.deg360 {
+#ea-map #ring-1 .pisces.deg360 {
   transform-origin: 920px 700px; transform: rotate(-20deg) translate(920px, 700px); }
 
 /* PLANETS 2 */
@@ -265,29 +266,29 @@ h1 {
 /* SAFARI HACK */
 @supports (-webkit-hyphens:none) { 
   /* SIGNS 1 */
-  #ea-map #signs-1 .aries.deg30 {
+  #ea-map #ring-1 .aries.deg30 {
     transform-origin: 1075px 725px; transform: rotate(20deg) translate(1075px,725px); }
-  #ea-map #signs-1 .taurus.deg60 {
+  #ea-map #ring-1 .taurus.deg60 {
     transform-origin: 1200px 795px; transform: rotate(50deg) translate(1200px, 795px); }
-  #ea-map #signs-1 .gemini.deg90 {
+  #ea-map #ring-1 .gemini.deg90 {
     transform-origin: 1275px 920px; transform: rotate(75deg) translate(1275px, 920px); }
-  #ea-map #signs-1 .cancer.deg120 {
+  #ea-map #ring-1 .cancer.deg120 {
     transform-origin: 1335px 1090px; transform: rotate(-75deg) translate(1335px, 1090px); }
-  #ea-map #signs-1 .leo.deg150 {
+  #ea-map #ring-1 .leo.deg150 {
     transform-origin: 1245px 1245px; transform: rotate(-50deg) translate(1245px, 1245px); }
-  #ea-map #signs-1 .virgo.deg180 {
+  #ea-map #ring-1 .virgo.deg180 {
     transform-origin: 1090px 1335px; transform: rotate(-15deg) translate(1090px, 1335px); }
-  #ea-map #signs-1 .libra.deg210 {
+  #ea-map #ring-1 .libra.deg210 {
     transform-origin: 920px 1320px; transform: rotate(10deg) translate(920px, 1320px); }
-  #ea-map #signs-1 .scorpio.deg240 {
+  #ea-map #ring-1 .scorpio.deg240 {
     transform-origin: 755px 1245px; transform: rotate(40deg) translate(755px, 1245px); }
-  #ea-map #signs-1 .sagittarius.deg270 {
+  #ea-map #ring-1 .sagittarius.deg270 {
     transform-origin: 660px 1090px; transform: rotate(70deg) translate(660px, 1090px); }
-  #ea-map #signs-1 .capricorn.deg300 {
+  #ea-map #ring-1 .capricorn.deg300 {
     transform-origin: 725px 920px; transform: rotate(-75deg) translate(725px, 920px); }
-  #ea-map #signs-1 .aquarius.deg330 {
+  #ea-map #ring-1 .aquarius.deg330 {
     transform-origin: 790px 790px; transform: rotate(-50deg) translate(790px, 790px); }
-  #ea-map #signs-1 .pisces.deg360 {
+  #ea-map #ring-1 .pisces.deg360 {
     transform-origin: 920px 720px; transform: rotate(-20deg) translate(920px, 720px); }
 
   /* SIGNS 5 */
